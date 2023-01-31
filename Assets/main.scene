@@ -78,6 +78,59 @@ entities:
           __class: LightUnit
           value: Lux
     layer: 0
+  - __class: Entity
+    name: MyMy Makeup
+    guid: {a: 814048282995724335, b: 7547976048273828268}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 4}
+      - __class: MeshRenderer
+        name: ""
+        guid: {a: 13493309610620741216, b: 3968158286911629231}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: b26b929a-ce5c-8b65-8fb0-07d0bbc8bdad--b26b929a-ce5c-8b65-8fb0-07d0bbc8bdad.material}
+        sortingOrder: 0
+        autoSortingOrder: true
+        useFrustumCulling: false
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 00000000-0000-0000-0000-000000000052}
+        castShadow: false
+      - __class: EffectFaceMakeupFaceU
+        name: ""
+        guid: {a: 7586040687515157459, b: 2706464042423475099}
+        enabled: true
+        type:
+          __class: EffectFaceMakeupType
+          value: FACEU_MASK
+        templateMesh: {localId: 1, path: 00000000-0000-0000-0000-000000000052}
+        dynamicRenderChain: false
+        faceIds: [0, 1, 2, 3, 4]
+        facemakeupEntityName: MyMy Makeup
+        zPosition: 0
+        triggerLua: true
+        version: 1
+        sdkType: 3
+        useVideoTexture: false
+        useSegment: false
+        maleOpacity: 0.4000000059604645
+        femaleOpacity: 1
+        xoffset: 1
+        yoffset: 1
+      - __class: JSScriptComponent
+        name: ""
+        guid: {a: 3189502261621340284, b: 4338532749530379957}
+        enabled: true
+        path: js/FaceMakeupController.js
+        properties:
+          __class: Map
+          faceIds: [0, 1, 2, 3, 4]
+    layer: 0
 visible: true
 config:
   __class: Map
@@ -108,6 +161,16 @@ enabled: true
 localPosition: {x: -30, y: 20, z: -20}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 0.6123723, x: -0.3535534, y: -0.6123725, z: -0.3535534}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &4
+name: ""
+guid: {a: 2110119678235755992, b: 15149555623385140634}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
 mobility:
   __class: Mobility
   value: Dynamic

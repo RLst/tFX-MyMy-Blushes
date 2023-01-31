@@ -116,5 +116,118 @@
     "expanded": true,
     "editable": true,
     "shadowAdvanceExpanded": false
+  },
+  {
+    "guid": {
+      "a": "487bf802-8f4f-c850-c325-dd0e1329a678",
+      "b": ""
+    },
+    "objGuid": "Guid(814048282995724335, 7547976048273828268)",
+    "extraType": "Entity",
+    "name": "MyMy Makeup",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none"
+  },
+  {
+    "guid": {
+      "a": "bc5aaa6d-5654-cdca-16e1-d588ff62c6be",
+      "b": ""
+    },
+    "objGuid": "Guid(2110119678235755992, 15149555623385140634)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "Transform",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "component_transform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "334cc6ea-5a7c-30db-f66f-cb106eb5c7f3",
+      "b": ""
+    },
+    "objGuid": "Guid(13493309610620741216, 3968158286911629231)",
+    "extraType": "MeshRenderer",
+    "name": "Mesh Renderer",
+    "rttiType": "MeshRenderer",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_meshrenderer",
+    "expanded": false,
+    "editable": true,
+    "visualization": false
+  },
+  {
+    "guid": {
+      "a": "a869fa4a-72ee-9041-e288-c3c1ea15b591",
+      "b": ""
+    },
+    "objGuid": "Guid(7586040687515157459, 2706464042423475099)",
+    "extraType": "EffectFaceMakeupFaceU",
+    "name": "Face Mask",
+    "rttiType": "EffectFaceMakeupFaceU",
+    "version": "1.5.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_facemask",
+    "expanded": true,
+    "editable": true,
+    "mesh": "00000000-0000-0000-0000-000000000052",
+    "material": "b26b929a-ce5c-8b65-8fb0-07d0bbc8bdad",
+    "makeupTexture": "4400e394-d4fe-00b0-77db-895188792179",
+    "opacityTexture": "00000000-0000-0000-0000-000000000057",
+    "maskTexture": "00000000-0000-0000-0000-00000000001e",
+    "faceIds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "intensity": 0.7,
+    "opacityEnable": true,
+    "color": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "blendMode": 0,
+    "regionType": 0
+  },
+  {
+    "guid": {
+      "a": "7e044b17-de61-dc28-c832-0c480594b804",
+      "b": ""
+    },
+    "objGuid": "Guid(3189502261621340284, 4338532749530379957)",
+    "extraType": "FaceMakeupController",
+    "name": "FaceMakeupController",
+    "rttiType": "JSScriptComponent",
+    "version": "0.1.0",
+    "isVisibleInInspector": false,
+    "hideInPanel": false,
+    "displayKey": "component_face_makeup_controller",
+    "expanded": true,
+    "editable": true
   }
 ]

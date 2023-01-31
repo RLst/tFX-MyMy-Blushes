@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "b26b929a-ce5c-8b65-8fb0-07d0bbc8bdad",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "FaceMaskWhole",
+    "objGuid": "Guid(1028300800594725673, 16399994232732360083)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": true,
+    "skinObjGuid": "Guid(4125935661942575971, 16999549527438795918)"
+  }
+]
